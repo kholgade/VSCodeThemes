@@ -1,0 +1,35 @@
+{
+  "name": "claymorphism-theme",
+  "displayName": "Claymorphism Theme",
+  "description": "A soft, 3D-inspired theme with Claymorphism design aesthetics",
+  "version": "1.0.0",
+  "publisher": "claymorphism",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "claymorphism",
+    "3d",
+    "soft",
+    "ui"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Claymorphism Light",
+        "uiTheme": "vs",
+        "path": "./themes/claymorphism-light.json"
+      },
+      {
+        "label": "Claymorphism Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claymorphism-dark.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}
