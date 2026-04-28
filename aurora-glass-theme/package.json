@@ -1,0 +1,38 @@
+{
+  "name": "aurora-glass-theme",
+  "displayName": "Aurora Glass Theme",
+  "description": "A dreamy, ethereal theme with fluid aurora gradients inspired by the Northern Lights",
+  "version": "1.0.0",
+  "publisher": "aurora-glass",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "aurora",
+    "glass",
+    "gradient",
+    "ethereal",
+    "purple",
+    "blue",
+    "dreamy"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aurora Glass Light",
+        "uiTheme": "vs",
+        "path": "./themes/aurora-glass-light.json"
+      },
+      {
+        "label": "Aurora Glass Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-glass-dark.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}

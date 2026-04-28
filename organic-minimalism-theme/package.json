@@ -1,0 +1,37 @@
+{
+  "name": "organic-minimalism-theme",
+  "displayName": "Organic Minimalism Theme",
+  "description": "A calming, nature-inspired theme with soft earth tones and organic aesthetics for focused coding",
+  "version": "1.0.0",
+  "publisher": "organic-minimalism",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "organic",
+    "minimalism",
+    "nature",
+    "earth tones",
+    "calm",
+    "focus"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Organic Minimalism Light",
+        "uiTheme": "vs",
+        "path": "./themes/organic-minimalism-light.json"
+      },
+      {
+        "label": "Organic Minimalism Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/organic-minimalism-dark.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}

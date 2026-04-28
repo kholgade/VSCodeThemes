@@ -1,0 +1,37 @@
+{
+  "name": "monochrome-pro-theme",
+  "displayName": "Monochrome Pro Theme",
+  "description": "A sophisticated grayscale theme for minimal distraction and maximum focus",
+  "version": "1.0.0",
+  "publisher": "monochrome-pro",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "monochrome",
+    "grayscale",
+    "minimal",
+    "professional",
+    "focus",
+    "clean"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monochrome Pro Light",
+        "uiTheme": "vs",
+        "path": "./themes/monochrome-pro-light.json"
+      },
+      {
+        "label": "Monochrome Pro Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monochrome-pro-dark.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}
