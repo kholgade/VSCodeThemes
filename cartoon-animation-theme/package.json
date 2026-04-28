@@ -1,0 +1,37 @@
+{
+  "name": "cartoon-animation-theme",
+  "displayName": "Cartoon Animation Theme",
+  "description": "A vibrant, playful theme inspired by cartoon and animation aesthetics with bold colors",
+  "version": "1.0.0",
+  "publisher": "cartoon-animation",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "cartoon",
+    "animation",
+    "vibrant",
+    "colorful",
+    "playful",
+    "ui"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cartoon Animation Light",
+        "uiTheme": "vs",
+        "path": "./themes/cartoon-animation-light.json"
+      },
+      {
+        "label": "Cartoon Animation Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cartoon-animation-dark.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}

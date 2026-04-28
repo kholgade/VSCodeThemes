@@ -1,0 +1,36 @@
+{
+  "name": "neobrutalism-theme",
+  "displayName": "Neobrutalism Theme",
+  "description": "A bold, high-contrast theme inspired by Neobrutalism design with thick borders and vibrant colors",
+  "version": "1.0.0",
+  "publisher": "neobrutalism",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "neobrutalism",
+    "brutalism",
+    "bold",
+    "high-contrast",
+    "ui"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neobrutalism Light",
+        "uiTheme": "vs",
+        "path": "./themes/neobrutalism-light.json"
+      },
+      {
+        "label": "Neobrutalism Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neobrutalism-dark.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}
